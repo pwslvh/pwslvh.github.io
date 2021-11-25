@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Sesión</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--
+    Carga el núcleo de Firebase
+    JS SDK
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
+    </script>
+  <!--
+    Agrega el manejo de
+    autenticación.
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js">
+    </script>
+  <!--
+    Agrega el manejo de bases de
+    datos.
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
+    </script>
+  <!--
+    Configura la app usando la
+    información del sitio de
+    Firebase.
+  -->
+  <script src="js/init.js">
+  </script>
+  <script type="module"
+    src="cmp/mi-nav.js">
+    </script>
+  <script type="module"
+    src="cmp/mi-footer.js">
+    </script>
+  <script type="module"
+    src="cmp/mi-progreso.js">
+    </script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+		<mi-nav id="nav"></mi-nav>
+		<!--	<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>-->
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<form name="forma">
+					<div class="container">
+						<div class="row">
+								<div class="col-4 col-5-large col-12-medium">
+									<span class="image fit"><img id="avatar" src="" alt="Avatar"></span>
+								</div>
+								<div class="col-8 col-7-large col-12-medium">
+									<header>
+										<h2>Sesión</h2>
+										<h1>Hola <strong><output name="nombre"><mi-progreso></mi-progreso></output></strong>.</h1>
+									</header>
+									<p><strong>Tu correo es </strong><output name="email"><mi-progreso></mi-progreso></output></p>
+									<button class="button large scrolly" type="button" name="terminarSesión">Terminar Sesión</button>
+								</div>
+						</div>
+					</div>
+				</form>
+			</article>
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+					<footer>
+						<ul id="copyright">
+							<mi-footer></mi-footer>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script type="module" src="js/CtrlSesion.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
