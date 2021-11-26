@@ -78,10 +78,10 @@ function htmlFila(doc) {
   parámetros.append("id", doc.id);
   return ( /* html */
     `<tr>
-					<td><a class="fila" href="alumno.html?${parámetros}">${matricula}</a></td>
-					<td><a class="fila" href="alumno.html?${parámetros}">${nombre}</a></td>
-					<td><a class="fila" href="alumno.html?${parámetros}">${dformat}</a></td>
-		</tr><br>`);
+	<td><a class="fila" href="alumno.html?${parámetros}">${matricula}</a></td>
+	<td><a class="fila" href="alumno.html?${parámetros}">${nombre}</a></td>
+	<td><a class="fila" href="alumno.html?${parámetros}">${dformat}</a></td>
+	</tr><br>`);
 }
 
 /*`<li>
