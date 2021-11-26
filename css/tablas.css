@@ -30,9 +30,10 @@ tr:hover td{
 	color: white;
 }
 
-@media screen and (max-width: 736px) {
+
+@media only screen and (max-width: 766px) {
 	#main-container{
 		margin: 61px auto;
-		width: 600px;
+		width: 400px;
 	}
 }
