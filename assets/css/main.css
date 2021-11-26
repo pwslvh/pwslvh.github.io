@@ -2444,3 +2444,8 @@ input, select, textarea {
 					}
 
 	}
+
+	.checks {
+		list-style-type: none;
+		padding: 0;
+	  }
