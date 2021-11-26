@@ -119,7 +119,13 @@ export function
       "checked" : "";
   return (/* html */
     `
-      <label class="fila">
+    <label><input type="checkbox" name="rolIds" value="${cod(doc.id)}"${checked}> ${cod(doc.id)} <br> ${cod(data.descripción)}</label><br>
+    `);
+}
+
+
+
+/* <label class="fila">
         <input type="checkbox"
             name="rolIds"
             value="${cod(doc.id)}"
@@ -134,10 +140,7 @@ export function
           ${cod(data.descripción)}
           </span>
         </span>
-      </label>
-    `);
-}
-
+      </label>*/
 /**
  * @param {Event} evt
  * @param {FormData} formData
