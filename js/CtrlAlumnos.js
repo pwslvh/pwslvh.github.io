@@ -81,7 +81,7 @@ function htmlFila(doc) {
 	<td><a class="fila" href="alumno.html?${parámetros}">${matricula}</a></td>
 	<td><a class="fila" href="alumno.html?${parámetros}">${nombre}</a></td>
 	<td><a class="fila" href="alumno.html?${parámetros}">${dformat}</a></td>
-	</tr><br>`);
+	</tr>`);
 }
 
 /*`<li>
