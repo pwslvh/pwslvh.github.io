@@ -118,7 +118,7 @@ export function
     set.has(doc.id) ?
       "checked" : "";
   return (/* html */
-    `<li>
+    `<p>
       <label class="fila">
         <input type="checkbox"
             name="rolIds"
@@ -135,7 +135,7 @@ export function
           </span>
         </span>
       </label>
-    </li>`);
+    </p>`);
 }
 
 /**
