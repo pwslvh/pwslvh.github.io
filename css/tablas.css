@@ -29,3 +29,10 @@ tr:hover td{
 	background-color: #6495ED;
 	color: white;
 }
+
+@media screen and (max-width: 736px) {
+	#main-container{
+		margin: 61px auto;
+		width: 600px;
+	}
+}
