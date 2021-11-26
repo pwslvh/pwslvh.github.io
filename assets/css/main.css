@@ -1511,6 +1511,7 @@ input, select, textarea {
 	form input[type=text],
 	form input[type=number],
 	form input[type=date],
+	form input[type=file],
 	form input[type=email],
 	form input[type=password],
 	form select,
@@ -1533,6 +1534,7 @@ input, select, textarea {
 	}
 
 		form input[type=text]:focus,
+		form input[type=file]:focus,
 		form input[type=email]:focus,
 		form input[type=number]:focus,
 		form input[type=date]:focus,
