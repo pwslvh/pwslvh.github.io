@@ -5,6 +5,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.circular--square {
+				border-top-left-radius: 50% 50%;
+				border-top-right-radius: 50% 50%;
+				border-bottom-right-radius: 50% 50%;
+				border-bottom-left-radius: 50% 50%;
+				}
+		</style>
 		  <script
 		    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
 		    </script>
@@ -52,14 +60,14 @@
 										</ul>
 									</div>
 									<div class="col-12">
+										<strong>Usuario:</strong>
 										<output name="cue">
-								          Usuario
 								          <mi-progreso>
 								          </mi-progreso>
 								        </output>
 									</div>
 									<div class="col-12">
-										<figure id="figure">
+										<figure class="circular--square" id="figure">
 									      <img alt="Falta el Avatar">
 									    </figure>
 									</div>
