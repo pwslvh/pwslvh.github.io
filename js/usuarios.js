@@ -119,7 +119,8 @@ export function
       "checked" : "";
   return (/* html */
     `
-    <label><input type="checkbox" name="rolIds" value="${cod(doc.id)}"${checked}> ${cod(doc.id)} <br> ${cod(data.descripción)}</label><br>
+    <input class="form-check-input" name="rolIds" type="checkbox" id="flexSwitchCheckDefault" value="${cod(doc.id)}"${checked}>
+    <label class="form-check-label" for="flexSwitchCheckDefault"> ${cod(doc.id)}<br> ${cod(data.descripción)}</label><br>
     `);
 }
 
