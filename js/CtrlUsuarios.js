@@ -103,7 +103,7 @@ async function htmlFila(doc) {
         </div>
         <div class="comment-content">
           ${alumno}
-          ${roles}
+          <strong>${roles}</strong>
         </div>
       </div>
     </div>
